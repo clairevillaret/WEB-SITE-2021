@@ -1,0 +1,168 @@
+.header {
+	display: block;
+	margin-bottom: 50px;
+	height: 100%;
+	width: 100%;
+}
+.header img{
+	height: 100%;
+	width: 100%;
+	
+}
+body {
+	font-family: Courier New;
+	line-height: 0.5cm;
+	margin-left: 90px;
+	margin-right: 90px;
+	text-align: justify;
+	background-color: #e6e6e6;
+	margin-bottom: 50px;
+	
+}
+a:link, a:visited {
+  	background-color: none;
+
+}
+h1{
+	font-size: 20px;
+	padding-left: 15px;
+	color: #808080;
+	text-decoration: none;
+}
+h6{
+	display: inline;
+	color: red;
+	margin-top: 5px;
+}
+input{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.front {
+	background-color: #808080;
+
+}
+.nav {
+	background-color: #333;
+	list-style: none;
+	padding: 0.1px 0 0.1px 0;
+	text-transform: uppercase;
+	margin: auto;
+}
+.nav ul {
+	padding: 0 25px 0 25px;
+	list-style: none;
+	text-align: center;
+
+}
+.nav li a {
+	text-decoration: none;
+	color: white;
+}
+.nav li {
+	display: inline-block;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+.post{
+	background-color: #f2f2f2;
+	color: white;
+	display: block;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.theme_button{
+	background-color: #a6a6a6;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 3px;
+	margin-left: 8px;
+	font-family: Courier New;
+
+}
+.theme_button:hover{
+	background-color: #4d4d4d;
+}
+.submit_button{
+	background-color: #a6a6a6;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	width: 100%;
+	padding: 5px;
+}
+.submit_button:hover{
+	background-color: #4d4d4d;
+}
+.pop_up {
+	height: 430px;
+	width: 100%;
+	background-color: transparent;
+	position: absolute;
+	padding-top: 250px;
+	left: 0;
+	top: 0;
+}
+.popup_content{
+	background-color: #f2f2f2;
+	margin: 0 auto;
+	width: 20%;
+	height: 30%;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	border: 3px solid #d9d9d9;
+}
+.container{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.container button{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+.pull_left{
+	float: left;
+	display: inline-block;
+}
+.pull_left a {
+	text-decoration: none;
+	color: #808080; 
+}
+.pull_right{
+	float: right;
+	display: inline-flex;
+	padding: 10px;
+}
+.forum_part{
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: auto;
+
+}
+.forum_table{
+	width: 100%;
+	height: auto;
+	border: 1px #d9d9d9;
+
+}
+.forum_table tr{
+	border: 1px solid black;
+
+}
+.forum_table a{
+	text-decoration: none;
+	color: black;
+}
+.discussionArea{
+	width: 100%;
+	height: auto;
+}
